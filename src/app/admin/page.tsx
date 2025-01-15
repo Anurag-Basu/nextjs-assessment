@@ -25,7 +25,6 @@ const AdminPage = () => {
         <TableHeader>
           <TableColumn>NAME</TableColumn>
           <TableColumn>ROLE</TableColumn>
-          <TableColumn>STATUS</TableColumn>
         </TableHeader>
         <TableBody>
           {userData.map((row, index) => {

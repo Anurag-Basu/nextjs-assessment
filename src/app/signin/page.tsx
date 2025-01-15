@@ -4,6 +4,7 @@ import { useForm } from "antd/es/form/Form";
 import { useRouter } from "next/navigation";
 import React from "react";
 
+
 type FormType = {
   name: string;
   password: string;
@@ -33,7 +34,7 @@ const Signin = () => {
   return (
     <>
       <div className="">
-        <h1 className="text-2xl">Signup Page</h1>
+        <h1 className="text-2xl">SignIn Page</h1>
 
         <Form form={form} onFinish={handleFormSubmit}>
           <Form.Item
@@ -52,7 +53,7 @@ const Signin = () => {
           </Form.Item>
 
           <Form.Item>
-            <Button htmlType="submit"> Signup </Button>
+            <Button htmlType="submit"> SignIn </Button>
           </Form.Item>
         </Form>
       </div>
